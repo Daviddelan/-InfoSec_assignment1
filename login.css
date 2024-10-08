@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #f7f7f7;
+    overflow: hidden; 
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 10;
+}
+
+.modal-container {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 90px;
+    background: #dcebf0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+    border-radius: 8px;
+    text-align: center;
+	max-width: 480px; 
+	margin: 20px; 
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+    margin-bottom: 30px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.signup-link, .help-link, .terms {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.signup-link a, .help-link a, .terms a {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #0066ee;
+    text-decoration: none;
+}
+
+.signup-link a:hover, .help-link a:hover, .terms a:hover {
+    text-decoration: underline;
+}
+
+
+#signin-container {
+    background: #fff;
+    font-size: 16px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+#signin-title {
+    text-align: center;
+}
+
+
+#signin-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+#email-group, #submit-group {
+    margin-bottom: 20px;
+}
+
+#email-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#password-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#submit-button:hover {
+    background: #555;
+}
+
+#signin-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#signin-options a {
+    color: #333;
+    text-decoration: none;
+}
+
+#submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#signin-options a:hover {
+    text-decoration: underline;
+  }

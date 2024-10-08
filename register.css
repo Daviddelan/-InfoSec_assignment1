@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #f7f7f7;
+    overflow: hidden; 
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.info-form {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 90px;
+    /* background: #dcebf0; */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+    border-radius: 8px;
+    text-align: center;
+	max-width: 480px; 
+	margin: 20px; 
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: left; 
+    color: #000; 
+    font-size: 14px; 
+}
+
+form select {
+    display: block;
+    width: calc(100% - 30px); 
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    /* background-color: #ffffff;  */
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%; 
+    background-size: 12px; 
+    text-align: right; 
+}
+
+form select:focus {
+    border-color: #4CAF50;
+}
+
+form input {
+    display: block;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #4CAF50;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    /* color: #fff; */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#logoContainer {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#logoContainer img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.info-form h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #21339b;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}

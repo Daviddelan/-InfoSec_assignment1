@@ -1,0 +1,10 @@
+{
+    "name": "agyei/infosec_assignment1",
+    "description": "A project for sending otp mails",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
